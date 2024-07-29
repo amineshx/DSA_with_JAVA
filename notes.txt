@@ -1,0 +1,74 @@
+TYPES OF DATA STRUCTERS :
+    linear and non-linear
+
+
+    linear :
+        arrays, Linked List, Stack, Queue
+    
+    non-linear:
+        Tree, graphs
+
+TIME COMPLEXITY:
+SPACE COMPLEXITY:
+
+ASYMPTOTIC NOTATIONS:
+    they are the mathematical tools used to describe the running time of an algorithm
+    in terms of input size.
+
+TYPES OF ASYMPTOTIC NOTATIONS:
+    Omega (Ω) notation ,Big O (O) notation, Theta (Θ) notation
+
+        Omega (Ω) notation : it's the formal way to express the lower bound of an algorithm's
+        running time
+        "lower bound": means for any given input this notation determines best
+        amount of time an algorithm can take to complete.
+        For Exmple :
+        if we say certain algorithm takes 100 secs as best amount of time. So 100 secs will be lower
+        bound of that algorithm. The algorithm can take more than 100 secs but it will not 
+        take less than 100 secs
+
+
+        Big O (O) notation: this is the formal way to express the upper bound of an algorithm's 
+        running time.
+        "upper bound":means for any given input this notation determines longest amount
+        of time an algorithm can take to complete.
+        For Exmple :
+        if we say certain algorithm takes 100 secs as longest amount of time. So 100 secs will be 
+        upper bound of that algorithm. The algorithm can take less than 100 secs but it will not 
+        take more than 100 secs
+
+
+        Theta (Θ) notation: it's the formal way to express both the upper and lower bound of
+        an algorithm's running time.
+        "by lower and upper bound": means for any given input this notation determines average 
+        amount of time an algorithm can take to complete.
+        For Exmple:
+        if we say certain algorithm takes 100 secs for the first run, 120 secs as second run,
+        110 for the third run and so on. so theta notations gives an average of running time.
+
+
+RULES OF BIG O(0) NOTATION:
+    • It's a Single Processor
+    • It performs Sequential Execution of statements 
+    • Assignment operation takes 1 unit of time 
+    • Return statement takes in 1 unit of time
+    • Arithmetical operation takes 1 unit of time 
+    • Logical operation takes 1 unit of time
+    • Other small/single operations takes 1 unit of time 
+    • Drop lower order terms ex: T=n^2 +n +1 ==> O(n^2)
+    • Drop constant multipliers ex: T= 3n^2 +6n +1 ==> O(n^2)
+
+    CALCULATING TIME COMPLEXITY OF CONSTANT ALGORITHM :
+        check ./images/1.TimeComplexity/O(n)constantTime.png
+    
+    CALCULATING TIME COMPLEXITY OF LINEAR ALGORITHM :
+        check ./images/1.TimeComplexity/O(n)linearTime1.png
+        check ./images/1.TimeComplexity/O(n)linearTime2.png
+
+    CALCULATING TIME COMPLEXITY OF POLYNOMIAL ALGORITHM :
+        check ./images/1.TimeComplexity/O(n)polynomialTime.png
+
+ARRAY DATA STRUCTURE:
+
+    
+
